@@ -1,0 +1,5 @@
+PLACEHOLDER README:
+
+The BlizzMod Launcher is a simple program designed for easy injection of the BlizzMod modloader. On launch, all you will see is a checkbox to start the "watcher". The watcher is an executable that watches for the Marvel Contest of Champions application to be loaded into memory. Once loaded, it will automatically inject the modloader library into the application, no need to download any other injection application.
+
+Precompiled binaries are included in the releases. A binary for the launcher application as well as the watcher application are included (I'll need to sort the watcher application into its own repo later but it's only a single file, so whatever right now). The launcher will look for the watcher application in the directory C:\MCOCMods\watcher\watcher.exe, and it will look for the modloader in C:\MCOCMods\modloader\BlizzMod.dll. If you do not have these directories, create them and place them in the appropriate folders, or you will get an error message. Happy modding!
